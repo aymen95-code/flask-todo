@@ -1,0 +1,46 @@
+main {
+  margin-top: 20px;
+}
+
+main > form {
+  width: 60%;
+  margin: 40px auto;
+}
+
+#lists {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+}
+
+#lists td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#lists tr:nth-child(even){background-color: #f2f2f2;}
+
+#lists tr:hover {background-color: #ddd;}
+
+#lists th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #343a40;
+  color: white;
+}
+
+#taskid {
+  display: none;
+}
+
+.empty {
+  text-align: center;
+  font-weight: bold;
+}
+
+.checked, .checked:hover {
+  background-color: red!important;
+  color: white
+}
