@@ -1,6 +1,6 @@
 from flask import render_template, redirect, url_for, request, session
 from crud import app, db
-from crud.forms import TodoForm
+from crud.forms import TodoForm, UpdateTaskForm
 from crud.models import List
 
 @app.route('/')
